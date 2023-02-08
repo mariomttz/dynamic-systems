@@ -1,1 +1,1 @@
-# dynamic-systems
+# Dynamic systems
