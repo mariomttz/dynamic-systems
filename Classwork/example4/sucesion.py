@@ -1,12 +1,12 @@
+#!/usr/bin/env python3
+
 def sucesion(n):
     for n in range(1, n + 1):
-        print("\\frac {1}{10^{" + str(n) + "}}", end = " ")
-    
+        print("\\frac{1}{10^{" + str(n) + "}},", end = " ")
     print()
 
     for n in range(1, n +1):
-        print(float(round((1 / (10 ** n)) , n)), end = " ")
-
+        print(str(float(round((1 / (10 ** n)), n))) + ",", end = " ")
     print()
 
 sucesion(int(input("Ingresa tu numero: ")))
